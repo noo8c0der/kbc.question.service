@@ -16,7 +16,9 @@
       "launchUrl": "swagger",
       "applicationUrl": "https://localhost:7159;http://localhost:5116",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CONNECTIONSTRING": "mongodb://localhost:27017",
+        "DBNAME": "KbcDB"
       }
     },
     "IIS Express": {
@@ -24,7 +26,9 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CONNECTIONSTRING": "mongodb://localhost:27017",
+        "DBNAME": "KbcDB"
       }
     }
   }
